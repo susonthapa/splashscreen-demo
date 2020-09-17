@@ -3,7 +3,9 @@
 
     <item android:drawable="@android:color/white" />
     <item
-        android:drawable="@drawable/avd_anim"
+        android:drawable="@drawable/ic_android_logo"
+        android:width="505dp"
+        android:height="505dp"
         android:gravity="center" />
 
 </layer-list>
