@@ -11,6 +11,7 @@ import android.widget.ImageView
 import androidx.constraintlayout.widget.ConstraintLayout
 
 class SplashActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val view = layoutInflater.inflate(R.layout.activity_splash, null, false)
@@ -24,7 +25,6 @@ class SplashActivity : AppCompatActivity() {
                 val imageView = view.findViewById<ImageView>(R.id.splash_image)
                 val layoutParams = imageView.layoutParams as ConstraintLayout.LayoutParams
                 val statusBarHeight = resources.displayMetrics.heightPixels - view.measuredHeight
-                Log.d("height:", statusBarHeight.toString())
                 layoutParams.setMargins(0, statusBarHeight, 0, 0)
                 imageView.layoutParams = layoutParams
                 return true
