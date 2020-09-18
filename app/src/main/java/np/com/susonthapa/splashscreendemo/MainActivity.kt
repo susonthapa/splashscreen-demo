@@ -7,6 +7,8 @@ import kotlin.math.tan
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        // set theme before calling super.onCreate
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         simulateHeavyLayout()
         setContentView(R.layout.activity_main)
