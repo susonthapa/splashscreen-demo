@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@android:color/white" />
+    <item android:drawable="@android:color/holo_green_dark" />
     <item
-        android:drawable="@drawable/ic_android_logo"
-        android:width="505dp"
-        android:height="505dp"
+        android:drawable="@drawable/avd_anim"
         android:gravity="center" />
 
 </layer-list>
